@@ -1,0 +1,179 @@
+/* Custom styling for additional effects */
+html, body {
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+ul#sideMenu {
+    display: none;
+}
+
+button:hover {
+    transform: scale(1.05); /* Hover effect for buttons */
+}
+
+@media (max-width: 768px) {
+    ul#sideMenu {
+        display: block;
+    }
+}
+
+/* Home Section Styling */
+/* Gradient Button */
+.btn-gradient {
+    background: linear-gradient(135deg, #FFE3E3, #FFE3E3); /* Gradient colors */
+    transition: transform 0.3s, background 0.3s;
+}
+.btn-gradient:hover {
+    transform: translateY(-3px); /* Hover effect */
+    background: linear-gradient(135deg, #f39c12, #d35400); /* New gradient on hover */
+}
+
+/* Outline Button */
+.btn-outline {
+    border: 2px solid #8e44ad; /* Border color */
+    transition: background 0.3s, color 0.3s;
+}
+.btn-outline:hover {
+    background-color: #8e44ad; /* Background color on hover */
+    color: #fff; /* White text on hover */
+}
+
+/* Add this CSS to style the new elements */
+#contact {
+    background-image: url('your-texture-image.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: rgb(255, 255, 255);
+}
+
+#contact h2, #contact p {
+    color: rgb(12, 237, 207);
+}
+
+#contact img {
+    width: 24px;
+    height: 24px;
+}
+
+#contact a {
+    color: #FFD700; /* Golden yellow for links */
+}
+
+#contact .shadow-md {
+    box-shadow: 10px 10px 12px rgba(1, 1, 5, 0.1);
+}
+
+/* About Me Section Background Color */
+#about {
+    background-color: #D0A2F7; /* Soft gray or previous section matching color */
+    color: black;
+}
+
+#about.dark{
+    background-color: #030637;
+    color: aliceblue;
+}
+
+/* Text Colors */
+h1, h2 {
+    color: #8E7AB5; /* Darker shade for titles */
+}
+
+p {
+    color: #607274; /* Subtle gray for body text */
+}
+
+/* Rectangle Shape for Profile Picture */
+.w-60 {
+    width: 15rem; /* Width for rectangular shape */
+}
+
+.h-80 {
+    height: 20rem; /* Height for rectangular shape */
+}
+
+/* Image and Box Styling */
+.shadow-lg {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Soft shadow */
+}
+
+.border-4 {
+    border-width: 4px; /* Profile image border width */
+}
+
+.border-gray-200 {
+    border-color: #030637; /* Light gray border for image */
+}
+
+.rounded-lg {
+    border-radius: 0.5rem; /* Slightly rounded corners for info boxes */
+}
+
+body.dark{
+    background-color: aqua;
+}
+
+/* Education Section Background Color */
+#education {
+    background-color: #f3f4f6; /* Same as About Me section or adjust to your preference */
+}
+
+/* Image and Box Styling */
+.w-60 {
+    width: 15rem; /* Width for rectangular shape */
+}
+
+.h-80 {
+    height: 20rem; /* Height for rectangular shape */
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Soft shadow */
+}
+
+.border-4 {
+    border-width: 4px; /* Border width */
+}
+
+.border-gray-200 {
+    border-color: #e5e7eb; /* Light gray border for image */
+}
+
+.rounded-lg {
+    border-radius: 0.5rem; /* Rounded corners for info boxes */
+}
+
+.text-gray-800 {
+    color: #333333; /* Text color for better readability */
+}
+
+#education {
+    background: linear-gradient(to bottom right, #f3f4f6, #e0e7ff); /* Light gray to soft blue gradient */
+}
+
+form input,
+form textarea {
+    background-color: #f9f9f9;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #6b46c1;
+    color: white;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #553c9a;
+}
+

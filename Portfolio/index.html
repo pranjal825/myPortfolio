@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans">
+    <!-- Background Image -->
+    <!-- Background Image -->
+<div class="fixed top-1 right-1 w-12/13 -z-10 translate-y-[-80%]">
+    <img data-src="./images/header-bg-color.png" alt="Background Image" class="lazy w-full">
+</div>
+
+
+    <!-- Navigation -->
+    <nav class="w-full fixed px-5 lg:px-7 py-4 flex items-center justify-between z-50 bg-white shadow-md">
+       <!--Left section name-->
+       <div class="flex items-center">
+        <h1 class="text-2xl font-bold text-gray-800">Pranjal Dwivedi</h1>
+       </div>
+        <ul class="hidden md:flex items-center gap-5 lg:gap-7 rounded-full px-11 py-3 bg-amber-300 shadow-sm bg-opacity-55">
+            <li><a href="#top" class="hover:text-red-500">Home</a></li>
+            <li><a href="#about" class="hover:text-red-500">About Me</a></li>
+            <li><a href="#education" class="hover:text-red-500">Education</a></li>
+            <li><a href="#skills" class="hover:text-red-500">Skills</a></li>
+            <li><a href="#projects" class="hover:text-red-500">Projects</a></li>
+            <li><a href="#contact" class="hover:text--500">Contact Me</a></li>
+        </ul>
+        <div class="flex items-center gap-4">
+            <!-- Dark Mode Toggle -->
+            <!-- Dark Mode Toggle Button -->
+            <button id="darkModeToggle">
+            <img src="images\mail_icon.png" alt="Dark Mode" class="w-6" id="darkModeIcon">
+            </button>
+            <button class="block md:hidden ml-3">
+                <img src="images\menu-black.png" alt="Menu" class="w-6">
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <ul id="sideMenu" class="hidden md:hidden flex-col py-20 px-10 fixed right-0 top-0 bottom-0 w-64 z-50 h-screen bg-rose-200 transition duration-500">
+            <li><a href="#top" class="hover:text-blue-500">Home</a></li>
+            <li><a href="#about" class="hover:text-blue-500">About Me</a></li>
+            <li><a href="#education" class="hover:text-blue-500">Education</a></li>
+            <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+            <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+            <li><a href="#contact" class="hover:text-blue-500">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!--Home Section -->
+<!-- New Home Section (Updated) -->
+<section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-green-100 to-red-300">
+    <div class="text-center">
+        <h1 class="text-6xl font-bold text-gray-800 mb-6">Hi! I'm Pranjal Dwivedi</h1>
+        <h2 class="text-4xl font-medium text-gray-600 mb-8">Frontend Web Developer </h2>
+        <p class="text-lg text-gray-500 max-w-xl mx-auto mb-10">
+            I'm a passionate frontend Frontend developer with a strong focus on creating visually appealing and user-friendly interfaces.
+            and also learning new things from creating new things.
+        </p>
+
+        <!-- Buttons -->
+        <div class="flex justify-center space-x-6">
+            <a href="#contact" class="btn-gradient py-3 px-6 text-gray-700 rounded-full shadow-md text-lg">Contact Me</a>
+            <a href="Pranjal Resume.pdf" class="btn-outline py-3 px-6 text-gray-700 rounded-full shadow-md text-lg" download>My Resume</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Me Section -->
+     <!--    <section id="top" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-green-100 to-red-200">
+-->
+<section id="about" class="py-16 text-center bg-gray-100 text-gray-800">
+    <div class="container mx-auto">
+        <h2 class="text-4xl font-bold mb-6">Introduction</h2>
+        <h1 class="text-5xl font-bold mb-8">About Me</h1>
+        <p style="text-align:justify" class="text-1xl font-strong mb-8  text-gray-800 font">
+            Hi! 👋 I'm Pranjal Dwivedi and  I'm a passionate frontend Frontend developer with a strong focus on creating visually appealing and user-friendly interfaces.
+            and also learning new things from creating new things.A dedicated and passionate professional who takes immense pride in delivering excellence in every task.
+            My observant nature and sincerity drive me to continuously improve and innovate in my work. I thrive on the motivation that comes from doing what I love,
+             and this passion ensures that I always put forth my best effort. 
+        </p>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+            <!-- Profile Image with Rectangle Shape -->
+            <div class="w-60 h-80"> 
+                <img src="images\profile-img.png" alt="Profile Picture" class="shadow-2xl object-center w-full h-full border-2 border-gray-100">
+            </div>
+            <!-- Info Boxes -->
+            <div class="space-y-6">
+                <div class="bg-blue shadow-lg p-6 rounded-2xl text-gray-800">
+                    <h3 class="text-XXl font-bold mb-2">Languages</h3>
+                    <p>HTML <br>CSS <br>JavaScript <br>MySql <br>Java<br>MongoDB <br></p>
+                </div>
+                <div class="bg-blue shadow-2xl p-6 rounded-3xl text-gray-800">
+                <h3 class="text-xxl font-extrabold mb-2">Tools </h3>
+                <p>Git <br>Github<br> VSCode<br> Intellij</p>
+                </div>
+                <div class="bg-blue shadow-2xl p-6 rounded-2xl text-gray-800">
+                    <h3 class="text-xl font-semibold mb-2">Education</h3>
+                    <p>Bachelors in Computer Applications</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Education Section -->
+   <!-- Education Section -->
+<section id="education" class="py-16 text-center bg-gray-100 text-gray-800">
+    <div class="container mx-auto">
+        <h2 class="text-4xl font-bold mb-6">My Journey</h2>
+        <h1 class="text-5xl font-bold text-gray-800 mb-8">Education</h1>
+        <p class="text-lg max-w-3xl mx-auto mb-12">
+            Throughout my education, I have honed my skills in various aspects of technology and development,
+            setting the foundation for my career in Frontend Development.
+        </p>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+            <!-- Profile Image with Rectangle Shape (Optional: You can replace it with an institution's logo or another image)-->
+            <div class="w-60 h-80">
+                <img src="education-image.jpg" alt="Education" class="shadow-lg object-cover w-full h-full border-4 border-gray-200">
+            </div>
+            <!-- Info Boxes -->
+            <div class="space-y-6">
+                <div class="bg-white shadow-lg p-6 rounded-lg text-gray-800">
+                    <h3 class="text-xl font-semibold mb-2">Bachelor's Degree</h3>
+                    <p>Bachelor of Computer Applications (BCA) <br> BBD University</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 rounded-lg text-gray-800">
+                    <h3 class="text-xl font-semibold mb-2">Certifications</h3>
+                    <p>Google Cloud Innovator Badge</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 rounded-lg text-gray-800">
+                    <h3 class="text-xl font-semibold mb-2">Workshops & Seminars</h3>
+                    <p>Attended various industry-relevant seminars and workshops on modern technologies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white text-center]]">
+        <h2 class="text-4xl font-bold mb-6">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- Add project cards -->
+            <div class="border p-4 shadow-sm">
+                <h3 class="text-xl font-bold">Project 1</h3>
+                <p class="text-gray-600">Description of project 1.</p>
+            </div>
+            <div class="border p-4 shadow-sm">
+                <h3 class="text-xl font-bold">Project 2</h3>
+                <p class="text-gray-600">Description of project 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+      
+    <!-- Contact Section -->
+<section id="contact" class="py-16 text-center bg-gray-50">
+    <div class="single-contact-box mx-auto">
+        <h2 class="text-4xl font-bold mb-6">Get in Touch</h2>
+        <h1 class="text-5xl font-bold text-gray-800 mb-8">Contact Me</h1>
+        <p class="text-lg max-w-3xl mx-auto mb-12">
+            Feel free to reach out to me using the form below, and I will get back to you as soon as possible.
+        </p>
+
+        <!-- Contact Form -->
+        <form action="https://formspree.io/f/xgvevjoe" method="POST" class="max-w-lg mx-auto">
+            <div class="mb-6">
+                <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 border border-gray-300 rounded-lg text-gray-800">
+            </div>
+            <div class="mb-6">
+                <input type="email" name="_replyto" placeholder="Your Email" required class="w-full p-3 border border-gray-300 rounded-lg text-gray-800">
+            </div>
+            <div class="mb-6">
+                <textarea name="message" rows="5" placeholder="Your Message" required class="w-full p-3 border border-gray-300 rounded-lg text-gray-800"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-purple-600 text-white py-3 rounded-lg">Send Message</button>
+        </form>
+    </div>
+</section>
+
+        <section id="contact" class="py-16 text-black" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+        <div class="single-contact-box mx-auto">
+          <div class="text-center mb-8">
+            <h2 class="text-4xl font-semibold">Pranjal Dwivedi</h2>
+            <p class="text-lg">Front-End Developer</p>
+          </div>
+          <div class="flex justify-center items-center">
+            <div class="bg-amber p-8 shadow-md rounded-lg max-w-md text-left text-gray-900">
+              <!-- Call me -->
+              <div class="mb-6 flex items-center">
+                <img src="C:\Users\Asus\Desktop\Portfolio\icons\phone-call.jpg" alt="Call Icon" class="w-6 h-6 mr-4">
+                <p><span class="font-semibold">Call me:</span> <a href="tel:6387886006" class="text-purple-600 hover:underline">Call me</a></p>
+              </div>
+              <!-- SMS -->
+              <div class="mb-6 flex items-center">
+                <img src="C:\Users\Asus\Desktop\Portfolio\icons\sms.jpg" alt="SMS Icon" class="w-6 h-6 mr-4">
+                <p><span class="font-semibold">Leave An SMS:</span> <a href="sms:6387886006" class="text-purple-600 hover:underline">Leave an SMS</a></p>
+              </div>
+              <!-- Email -->
+              <div class="mb-6 flex items-center">
+                <img src="C:\Users\Asus\Desktop\Portfolio\icons\email.jpg" alt="Email Icon" class="w-6 h-6 mr-4">
+                <p><span class="font-semibold">Email:</span> <a href="mailto:pranjaldwivedi9628@gmail.com" class="text-purple-600 hover:underline">pranjaldwivedi9628@gmail.com</a></p>
+              </div>
+              <!-- Resume -->
+              <div class="mb-6 flex items-center">
+                <img src="C:\Users\Asus\Desktop\Portfolio\icons\download.jpg" alt="Download Icon" class="w-6 h-6 mr-4">
+                <p><span class="font-semibold">Want to Download Resume:</span> <a href="" class="https://drive.google.com/file/d/14wm5uzRQWjCAzyitkyGDqSHdJBgPen4S/view?usp=drivesdk text-purple-600 hover:underline">Download Resume</a></p>
+              </div>
+              <!-- WhatsApp -->
+              <div class="flex items-center">
+                <img src="C:\Users\Asus\Desktop\Portfolio\icons\whatsapp.jpg" alt="WhatsApp Icon" class="w-6 h-6 mr-4">
+                <p><span class="font-semibold">Want to Connect on WhatsApp:</span> <a href="https://wa.me/6387886006" class="text-purple-600 hover:underline">Ping me</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!--footer-copyright start-->
+		<footer id="footer-copyright" class="footer-copyright">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<p>
+						&copy; copyright design and developed by Pranjal 
+                        With Love ❤❤❤❤.
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" ></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-copyright-->
+      
+
+    <script src="darkmode.js"></script>
+    <script src="mobile.js"></script>
+    <script src="smooth.js"></script>
+    <script src="menu.js"></script>
+    <script src="lazy.js"></script>    
+</body>
+</html>
